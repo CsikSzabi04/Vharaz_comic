@@ -1,0 +1,8 @@
+node_modules
+dist
+.vercel
+
+# buildkor generálva (scripts/content.mjs)
+public/comic
+public/icon-*.png
+src/content.json

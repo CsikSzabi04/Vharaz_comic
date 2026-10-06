@@ -1,0 +1,22 @@
+{
+  "name": "alexander-x-vharaz",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/content.mjs && vite",
+    "build": "node scripts/content.mjs && vite build",
+    "preview": "vite preview",
+    "content": "node scripts/content.mjs"
+  },
+  "dependencies": {
+    "page-flip": "^2.0.7",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.3"
+  }
+}
